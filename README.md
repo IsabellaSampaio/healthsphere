@@ -26,7 +26,7 @@ Recomenda-se, para o melhor teste deste aplicativo, que seja utilizado uma virtu
 pip install pyenv
 ~~~ 
 
-Depois de Instalar o Pyenv, instale (preferencialmente) o python em sua versão 3.9, já que nos testes foi a versão que melhor se comportou e apresentou menos bugs   
+Depois de Instalar o pyenv, instale (preferencialmente) o python em sua versão 3.9, já que nos testes foi a versão que melhor se comportou e apresentou menos bugs   
 
 ~~~
 pyenv 3.9.10
@@ -60,7 +60,7 @@ It is recommended, to the better use of this aplication, that a virtualenv with 
 pip install pyenv
 ~~~ 
 
-After installing pyenv, you now need to install a version o python. The recommendation here is python 3.9.10 as it's been proven to be the best one to use when running this aplication
+After installing pyenv, you now need to install a version of python. The recommendation here is python 3.9.X (X being any version of python 3.9) as it's been proven to be the best one to use when running this aplication
 
 ~~~
 pyenv 3.9.10
