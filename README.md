@@ -39,7 +39,7 @@ pyenv shell 3.9.10
 ## App created to suply employees of a health corporation / hospital / health center
 
 ### Description:
-Created to suply employees of a a health corporation/hospital/health center or a healthcare system in general. It creates a CRUD of data such as, pacients data, medications data (stock of medications), appoinments and more. This app was developed throughout the third semester of IS (Information Systems), at Instituto Federal do Espiríto Santo, more specificly in the Information Systems Laboratory course.
+Created to suply employees of a a health corporation/ hospital  /health center or a healthcare system in general. It creates a CRUD of data such as, pacients data, medications data (stock of medications), appoinments and more. This app was developed throughout the third semester of IS (Information Systems), at Instituto Federal do Espiríto Santo, more specificly in the Information Systems Laboratory course.
 
 ### Tools used to create the app:
 - Python 3.9.10
@@ -66,3 +66,4 @@ After installing pyenv, you now need to install a version of python. The recomme
 pyenv 3.9.10
 pyenv shell 3.9.10
 ~~~
+   
