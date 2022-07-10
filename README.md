@@ -1,7 +1,7 @@
 ## *PT-BR*
 
 # ***Sistema de gerenciamento para posto de saúde***
-## App criado com o objetivo de atender a funcionários de um posto de saúde/sistema de saúde
+## App criado com o objetivo de atender a funcionários de um posto de saúde / sistema de saúde
 
 
 ### Descrição:
@@ -36,10 +36,10 @@ pyenv shell 3.9.10
 ## *EN*
 
 # ***Healthcare management system***
-## App created to suply employees of a health corporation/hospital/health center
+## App created to suply employees of a health corporation / hospital / health center
 
 ### Description:
-Created with to suply employees of a a health corporation/hospital/health center or a healthcare system in general. It creates a CRUD of data such as, pacients data, medications data (stock of medications), appoinments and more. This app was developed throughout the third semester of IS (Information Systems), at Instituto Federal do Espiríto Santo, more specificly in the Information Systems Laboratory course.
+Created to suply employees of a a health corporation/hospital/health center or a healthcare system in general. It creates a CRUD of data such as, pacients data, medications data (stock of medications), appoinments and more. This app was developed throughout the third semester of IS (Information Systems), at Instituto Federal do Espiríto Santo, more specificly in the Information Systems Laboratory course.
 
 ### Tools used to create the app:
 - Python 3.9.10
