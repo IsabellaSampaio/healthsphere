@@ -1,14 +1,14 @@
-## *PT*
+## *PT-BR*
 
 # ***Sistema de gerenciamento para posto de saúde***
 ## App criado com o objetivo de atender a funcionários de um posto de saúde/sistema de saúde
 
 
 ### Descrição:
-Criado com o simples objetivo de atender a funcionários de um posto de saúde/sistema de saúde em geral. Faz um CRUD de dados tais como, dados de pacientes, remédios, consultas e mais. Aplicação foi desenvolvida durante o 3 semestre do curso de BSI do Instituto Federal do Espiríto Santo, mais especificamente na matéria Laboratório de Sistemas de Informação.
+Criado com o simples objetivo de atender a funcionários de um posto de saúde/sistema de saúde em geral. Faz um CRUD de dados tais como, dados de pacientes, remédios (estoque de medicamentos), consultas e mais. Aplicação foi desenvolvida durante o 3 semestre do curso de BSI do Instituto Federal do Espiríto Santo, mais especificamente na matéria Laboratório de Sistemas de Informação.
 
 ### Ferramentas utilizadas: 
-- Python
+- Python 3.9.10
 - Kivy, KivyMD
 - Google Firebase
 
@@ -33,3 +33,36 @@ pyenv 3.9.10
 pyenv shell 3.9.10
 ~~~
 
+## *EN*
+
+# ***Healthcare management system***
+## App created to suply employees of a health corporation/hospital/health center
+
+### Description:
+Created with to suply employees of a a health corporation/hospital/health center or a healthcare system in general. It creates a CRUD of data such as, pacients data, medications data (stock of medications), appoinments and more. This app was developed throughout the third semester of IS (Information Systems), at Instituto Federal do Espiríto Santo, more specificly in the Information Systems Laboratory course.
+
+### Tools used to create the app:
+- Python 3.9.10
+- Kivy, KivyMD
+- Google Firebase 
+
+### To test this app:
+
+~~~
+pip install -r requirements.txt
+~~~
+
+### Recommendations:
+
+It is recommended, to the better use of this aplication, that a virtualenv with pyenv is used.
+
+~~~ 
+pip install pyenv
+~~~ 
+
+After installing pyenv, you now need to install a version o python. The recommendation here is python 3.9.10 as it's been proven to be the best one to use when running this aplication
+
+~~~
+pyenv 3.9.10
+pyenv shell 3.9.10
+~~~
