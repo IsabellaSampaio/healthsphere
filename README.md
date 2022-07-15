@@ -3,17 +3,17 @@
 # ***Sistema de gerenciamento para posto de saúde***
 ## App criado com o objetivo de atender a funcionários de um posto de saúde / sistema de saúde
 
-
-### Descrição:
-Criado com o simples objetivo de atender a funcionários de um posto de saúde / sistema de saúde em geral. Faz um CRUD de dados tais como, dados de pacientes, remédios (estoque de medicamentos), consultas e mais. Aplicação foi desenvolvida durante o 3 semestre do curso de BSI do Instituto Federal do Espiríto Santo, mais especificamente na matéria Laboratório de Sistemas de Informação.
-
 <p align="center">
   <img 
     width="300"
     height="300"
-    src= https://drive.google.com/file/d/1kHrv4P-gT0Vc05rWlI43xKLIt9BZMljd/view
+    src= [https://drive.google.com/file/d/1kHrv4P-gT0Vc05rWlI43xKLIt9BZMljd/view](https://drive.google.com/file/d/1kHrv4P-gT0Vc05rWlI43xKLIt9BZMljd/view?usp=sharing)
   >
 </p>
+
+
+### Descrição:
+Criado com o simples objetivo de atender a funcionários de um posto de saúde / sistema de saúde em geral. Faz um CRUD de dados tais como, dados de pacientes, remédios (estoque de medicamentos), consultas e mais. Aplicação foi desenvolvida durante o 3 semestre do curso de BSI do Instituto Federal do Espiríto Santo, mais especificamente na matéria Laboratório de Sistemas de Informação.
 
 ### <a href="https://https://www.youtube.com/watch?v=H95JWNZOBv4&t=19s/" target="_blank">Clique aqui para assitir ao vídeo de demonstração</a>
 
