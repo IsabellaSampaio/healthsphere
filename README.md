@@ -11,7 +11,7 @@ Criado com o simples objetivo de atender a funcionários de um posto de saúde /
   <img 
     width="300"
     height="300"
-    src= (https://user-images.githubusercontent.com/71940799/179309118-f82afd51-a897-48e0-bc26-dceca52d3f13.png)
+    src= https://drive.google.com/file/d/1kHrv4P-gT0Vc05rWlI43xKLIt9BZMljd/view
   >
 
 
