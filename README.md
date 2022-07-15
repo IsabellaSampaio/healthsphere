@@ -5,9 +5,9 @@
 
 <p align="center">
   <img 
-    width="350"
-    height="580"
-    src= "file:///C:/Users/Ultra/Downloads/Screenshot%20from%202022-07-05%2002-34-49.png"
+       width="350"
+       height="580"
+       src= "https://drive.google.com/file/d/1kHrv4P-gT0Vc05rWlI43xKLIt9BZMljd/view?usp=sharing"
   >
 </p>
 
