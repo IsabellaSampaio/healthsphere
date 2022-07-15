@@ -3,7 +3,7 @@
 # ***Sistema de gerenciamento para posto de saúde***
 ## App criado com o objetivo de atender a funcionários de um posto de saúde / sistema de saúde
 
-<img align="center" src= "(https://user-images.githubusercontent.com/71940799/179312098-f56ef445-a78a-4dd2-97e6-04cca5714f6c.png)" width="350" > ![](https://user-images.githubusercontent.com/71940799/179312098-f56ef445-a78a-4dd2-97e6-04cca5714f6c.png) 
+<img align="center" src= "(https://user-images.githubusercontent.com/71940799/179312098-f56ef445-a78a-4dd2-97e6-04cca5714f6c.png)" width="350">![](https://user-images.githubusercontent.com/71940799/179312098-f56ef445-a78a-4dd2-97e6-04cca5714f6c.png) 
 
  
 ### Descrição:
