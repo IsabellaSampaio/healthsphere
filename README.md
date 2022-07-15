@@ -3,13 +3,9 @@
 # ***Sistema de gerenciamento para posto de saúde***
 ## App criado com o objetivo de atender a funcionários de um posto de saúde / sistema de saúde
 
-<p align="center">
-  <img 
-       width="350"
-       height="580"
-       src= "https://drive.google.com/file/d/1kHrv4P-gT0Vc05rWlI43xKLIt9BZMljd/view?usp=sharing"
-  >
-</p>
+<div align="center">
+  <img src="https://i.im.ge/2022/07/16/FXXoyK.png" alt="demo" height="580">
+</div>
 
 
 ### Descrição:
