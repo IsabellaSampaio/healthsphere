@@ -7,7 +7,7 @@
 ### Descrição:
 Criado com o simples objetivo de atender a funcionários de um posto de saúde / sistema de saúde em geral. Faz um CRUD de dados tais como, dados de pacientes, remédios (estoque de medicamentos), consultas e mais. Aplicação foi desenvolvida durante o 3 semestre do curso de BSI do Instituto Federal do Espiríto Santo, mais especificamente na matéria Laboratório de Sistemas de Informação.
 
-### <a href="https://https://www.youtube.com/watch?v=H95JWNZOBv4&t=19s/" target="_blank">Youtube</a>
+### <a href="https://https://www.youtube.com/watch?v=H95JWNZOBv4&t=19s/" target="_blank">Clique aqui para assitir ao vídeo de demonstração</a>
 
 ### Ferramentas utilizadas: 
 - Python 3.9.10
@@ -42,6 +42,8 @@ pyenv shell 3.9.10
 
 ### Description:
 Created to suply employees of a a health corporation / hospital  / health center or a healthcare system in general. It creates a CRUD of data such as, pacients data, medications data (stock of medications), appoinments and more. This app was developed throughout the third semester of IS (Information Systems), at Instituto Federal do Espiríto Santo, more specificly in the Information Systems Laboratory course.
+
+### <a href="https://https://www.youtube.com/watch?v=H95JWNZOBv4&t=19s/" target="_blank">Click here to watch the demonstration video</a>
 
 ### Tools used to create the app:
 - Python 3.9.10
