@@ -7,6 +7,8 @@
 ### Descrição:
 Criado com o simples objetivo de atender a funcionários de um posto de saúde / sistema de saúde em geral. Faz um CRUD de dados tais como, dados de pacientes, remédios (estoque de medicamentos), consultas e mais. Aplicação foi desenvolvida durante o 3 semestre do curso de BSI do Instituto Federal do Espiríto Santo, mais especificamente na matéria Laboratório de Sistemas de Informação.
 
+![Screenshot from 2022-07-05 02-34-49](https://user-images.githubusercontent.com/71940799/179308871-014a1da8-0424-4f7a-9ea5-cf5b900dd4ed.png)
+
 ### <a href="https://https://www.youtube.com/watch?v=H95JWNZOBv4&t=19s/" target="_blank">Clique aqui para assitir ao vídeo de demonstração</a>
 
 ### Ferramentas utilizadas: 
