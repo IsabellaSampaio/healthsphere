@@ -19,14 +19,7 @@ global HORARIOS_SELECIONADOS
 
 firebaseConfig={
   
-  'apiKey': "AIzaSyBDQ2wqu7cgtckZugoRaV17Y1nB7ao74eM",
-  'authDomain': "projeto-lsi.firebaseapp.com",
-  'databaseURL': "https://projeto-lsi-default-rtdb.firebaseio.com",
-  'projectId': "projeto-lsi",
-  'storageBucket': "projeto-lsi.appspot.com",
-  'messagingSenderId': "988436776781",
-  'appId': "1:988436776781:web:3d331834351b21c03e1904",
-  'measurementId': "G-4G9J6MYR3C"
+#PUT THE KEYS TO YOUR FIREBASE DATABASE HERE
 
 };
 
@@ -42,8 +35,8 @@ def callbackregister(self, *args):
 
 # Cria o registro do usuario e posta as informações na base de dados do firebase (realtime database)  
 def create_post(self, nome, cpf, senha):
-  firebase_url = "https://projeto-lsi-default-rtdb.firebaseio.com/Users/.json"    
-  auth_key = 'lurNQd7HxYgsg3xJAuPWUfQzDWJQrKSdiq7dC9xw'  
+  #firebase_url = " "    
+  #auth_key = ' '  
 
   lista = []
   request = requests.get(self.firebase_url + '?auth=' + self.auth_key)
@@ -249,10 +242,10 @@ def show_data_picker(self):
 
 # Cria a consulta e salva no banco de dados firebase
 def check(self, especialidade, data, paciente):
-  firebase_url = "https://projeto-lsi-default-rtdb.firebaseio.com/Schedule/Consulta.json"    
-  firebase_url2 = "https://projeto-lsi-default-rtdb.firebaseio.com/Pacients/.json" 
+  #firebase_url = " "    
+  #firebase_url2 = " " 
 
-  auth_key = 'lurNQd7HxYgsg3xJAuPWUfQzDWJQrKSdiq7dC9xw'
+  #auth_key = ' '
 
   request = requests.get(self.firebase_url + '?auth=' + self.auth_key)
   res = json.dumps(request.json()) 
@@ -299,10 +292,10 @@ def show_data_picker2(self):
 # Cria a retirada de medicamentos 
 
 def checkout(self, med, data, paciente2):
-  firebase_url = "https://projeto-lsi-default-rtdb.firebaseio.com/Schedule/Retirada.json"    
-  firebase_url2 = "https://projeto-lsi-default-rtdb.firebaseio.com/Meds/.json"
-  firebase_url3 = "https://projeto-lsi-default-rtdb.firebaseio.com/Pacients/.json"
-  auth_key = 'lurNQd7HxYgsg3xJAuPWUfQzDWJQrKSdiq7dC9xw'
+  #firebase_url = " "    
+  #firebase_url2 = " "
+  #firebase_url3 = " "
+  #auth_key = ' '
   
   request = requests.get(self.firebase_url3 + '?auth=' + self.auth_key)
   res = json.dumps(request.json()) 
@@ -334,8 +327,8 @@ def checkout(self, med, data, paciente2):
 # Cria o estoque de medicamentos (entrada e saida dos mesmos)
 
 def create_post_meds(self, nome_med, quantidade, id_med):
-  firebase_url = "https://projeto-lsi-default-rtdb.firebaseio.com/Meds/.json"  
-  auth_key = 'lurNQd7HxYgsg3xJAuPWUfQzDWJQrKSdiq7dC9xw' 
+  #firebase_url = " "  
+  #auth_key = ' ' 
   request = requests.get(self.firebase_url + '?auth=' + self.auth_key)
   res = json.dumps(request.json()) 
   
@@ -365,8 +358,8 @@ def create_post_meds(self, nome_med, quantidade, id_med):
 
 
 def create_delete(self, nome_med, quantidade, id_med):
-  firebase_url = "https://projeto-lsi-default-rtdb.firebaseio.com/Meds/.json"  
-  auth_key = 'lurNQd7HxYgsg3xJAuPWUfQzDWJQrKSdiq7dC9xw'
+  #firebase_url = " "  
+  #auth_key = ' '
     
   request = requests.get(self.firebase_url + '?auth=' + self.auth_key)
   res = json.dumps(request.json()) 
@@ -420,7 +413,7 @@ def start_second_thread(self):
   threading.Thread(target=self.load_data).start()
 
 def load_data(self, *args): 
-  get_request = requests.get(f'https://projeto-lsi-default-rtdb.firebaseio.com/Meds.json')
+  get_request = requests.get(f' ')
   consultas_data = json.loads(get_request.content.decode())
 
   count = 0
@@ -459,8 +452,8 @@ def data_table(self, cols, values):
 # Mostra os dados sobre o usuário
 
 def on_enter2(self):
-  firebase_url = "https://projeto-lsi-default-rtdb.firebaseio.com/Users/.json"    
-  auth_key = 'lurNQd7HxYgsg3xJAuPWUfQzDWJQrKSdiq7dC9xw'  
+  #firebase_url = " "    
+  auth_key = ' '  
   
   nome = list(open('autenticado.txt', 'r'))
   nome = nome[0]
@@ -479,8 +472,8 @@ def callbackregisterpacientes(self, *args):
   MDApp.get_running_app().root.current = 'login'
 
 def create_post_pacient(self, nome2, cpf2, senha2):
-  firebase_url = "https://projeto-lsi-default-rtdb.firebaseio.com/Pacients/.json"
-  auth_key = 'lurNQd7HxYgsg3xJAuPWUfQzDWJQrKSdiq7dC9xw' 
+  #firebase_url = " "
+  #auth_key = ' ' 
   request = requests.get(self.firebase_url + '?auth=' + self.auth_key)
   res = json.dumps(request.json()) 
   
@@ -560,7 +553,7 @@ def start_second_thread2(self):
   threading.Thread(target=self.load_data).start()
 
 def load_data2(self, *args): 
-  get_request = requests.get(f'https://projeto-lsi-default-rtdb.firebaseio.com/Schedule/Consulta.json')
+  #get_request = requests.get(f' ')
   consultas_data = json.loads(get_request.content.decode())
 
   count = 0
@@ -611,7 +604,7 @@ def start_second_thread3(self):
   threading.Thread(target=self.load_data).start()
 
 def load_data3(self, *args): 
-  get_request = requests.get(f'https://projeto-lsi-default-rtdb.firebaseio.com/Schedule/Retirada.json')
+  get_request = requests.get(f' ')
   consultas_data = json.loads(get_request.content.decode())
 
   count = 0
@@ -661,13 +654,13 @@ def start_second_thread4(self):
   threading.Thread(target=self.load_data).start()
 
 def load_data4(self, *args): 
-  firebase_url = "https://projeto-lsi-default-rtdb.firebaseio.com/Users/Duty/.json"
-  auth_key = 'lurNQd7HxYgsg3xJAuPWUfQzDWJQrKSdiq7dC9xw'     
+  #firebase_url = " "
+  #auth_key = ' '     
   if HORARIOS_SELECIONADOS:
     for h_horarios in HORARIOS_SELECIONADOS:
-      post_request = requests.delete(f'https://projeto-lsi-default-rtdb.firebaseio.com/Users/Duty/{h_horarios}/.json')
+      post_request = requests.delete(f'/{h_horarios}/.json')
 
-  get_request = requests.get(f'https://projeto-lsi-default-rtdb.firebaseio.com/Users/Duty/.json')
+  get_request = requests.get(f' ')
   horarios_dado = json.loads(get_request.content.decode())     
   count = 0
   cols = ["Código"]
@@ -731,7 +724,7 @@ def start_second_thread5(self):
   threading.Thread(target=self.load_data).start()
 
 def load_data5(self, *args): 
-  get_request = requests.get(f'https://projeto-lsi-default-rtdb.firebaseio.com/Pacients.json')
+  get_request = requests.get(f' ')
   pacientes_data = json.loads(get_request.content.decode())
 
   count = 0
