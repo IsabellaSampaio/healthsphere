@@ -24,15 +24,8 @@ global HORARIOS_SELECIONADOS
 screen = ScreenManager()
 firebaseConfig={
   
-  'apiKey': "AIzaSyBDQ2wqu7cgtckZugoRaV17Y1nB7ao74eM",
-  'authDomain': "projeto-lsi.firebaseapp.com",
-  'databaseURL': "https://projeto-lsi-default-rtdb.firebaseio.com",
-  'projectId': "projeto-lsi",
-  'storageBucket': "projeto-lsi.appspot.com",
-  'messagingSenderId': "988436776781",
-  'appId': "1:988436776781:web:3d331834351b21c03e1904",
-  'measurementId': "G-4G9J6MYR3C"
-
+  #PUT THE KEYS TO YOUR FIRABSE DATABASE HERE
+  
 };
 firebase2 = pyrebase.initialize_app(firebaseConfig)
 lista2 = []
@@ -44,9 +37,9 @@ class SplashScreen(Screen):
 
 class RegisterScreen(Screen):  
 
-  firebase_url = "https://projeto-lsi-default-rtdb.firebaseio.com/Users/.json"
-  firebase_url2 = "https://projeto-lsi-default-rtdb.firebaseio.com/Pacients.json"
-  auth_key = 'lurNQd7HxYgsg3xJAuPWUfQzDWJQrKSdiq7dC9xw' 
+  #firebase_url = " "
+  #firebase_url2 = " "
+  #auth_key = ' ' 
   
   def callbackregister(self, *args):
     callbackregister(self,*args)
@@ -57,8 +50,8 @@ class RegisterScreen(Screen):
 
 
 class LoginScreen(Screen):
-  firebase_url = "https://projeto-lsi-default-rtdb.firebaseio.com/Users/.json"
-  auth_key = 'lurNQd7HxYgsg3xJAuPWUfQzDWJQrKSdiq7dC9xw' 
+  #firebase_url = " "
+  #auth_key = ' ' 
   
   def callbacklogin(self, *args):
     callbacklogin(self,*args)
@@ -69,8 +62,8 @@ class LoginScreen(Screen):
 
 
 class ForgetSenhaScreen(Screen):
-  firebase_url = "https://projeto-lsi-default-rtdb.firebaseio.com/Users/.json"    
-  auth_key = 'lurNQd7HxYgsg3xJAuPWUfQzDWJQrKSdiq7dC9xw'  
+  #firebase_url = " "    
+  #auth_key = ' '  
 
   def esqueciSenha(self, cpf, senha):
     from functions import redf_passwd
@@ -85,8 +78,8 @@ class DashboardScreen(Screen):
      
 
 class AboutUserScreen(Screen):
-  firebase_url = "https://projeto-lsi-default-rtdb.firebaseio.com/Users/.json"    
-  auth_key = 'lurNQd7HxYgsg3xJAuPWUfQzDWJQrKSdiq7dC9xw'  
+  #firebase_url = " "    
+  #auth_key = ' '  
 
   def on_enter(self):
     from functions import on_enter2
@@ -105,9 +98,9 @@ class PrecheckScreen(Screen):
 
 
 class CheckinScreen(Screen):
-  firebase_url = "https://projeto-lsi-default-rtdb.firebaseio.com/Schedule/Consulta.json"    
-  firebase_url2 = "https://projeto-lsi-default-rtdb.firebaseio.com/Pacients/.json" 
-  auth_key = 'lurNQd7HxYgsg3xJAuPWUfQzDWJQrKSdiq7dC9xw'
+  #firebase_url = " "    
+  #firebase_url2 = " " 
+  #auth_key = ' '
 
   def consulta(self, especialidade, data, paciente):
     from functions import check
@@ -128,10 +121,10 @@ class CheckinScreen(Screen):
  
 
 class CheckoutScreen(Screen):
-  firebase_url = "https://projeto-lsi-default-rtdb.firebaseio.com/Schedule/Retirada.json"    
-  firebase_url2 = "https://projeto-lsi-default-rtdb.firebaseio.com/Meds/.json"
-  firebase_url3 = "https://projeto-lsi-default-rtdb.firebaseio.com/Pacients/.json"
-  auth_key = 'lurNQd7HxYgsg3xJAuPWUfQzDWJQrKSdiq7dC9xw'
+  #firebase_url = " "    
+  #firebase_url2 = " "
+  #firebase_url3 = " "
+  #auth_key = ' '
 
   def retirada(self, med, data, paciente2):
     from functions import checkout
@@ -156,8 +149,8 @@ class MedsScreen(Screen):
 
 
 class ControlMedsScreen(Screen):
-  firebase_url = "https://projeto-lsi-default-rtdb.firebaseio.com/Meds/.json"  
-  auth_key = 'lurNQd7HxYgsg3xJAuPWUfQzDWJQrKSdiq7dC9xw' 
+  #firebase_url = " "  
+  #auth_key = ' ' 
 
   def entradaMeds(self, nome_med, quantidade, id_med):
     from functions import create_post_meds
@@ -197,8 +190,8 @@ class InfoScreen(Screen):
   pass
 
 class RegisterPacients(Screen):
-  firebase_url = "https://projeto-lsi-default-rtdb.firebaseio.com/Pacients/.json"
-  auth_key = 'lurNQd7HxYgsg3xJAuPWUfQzDWJQrKSdiq7dC9xw' 
+  #firebase_url = " "
+  #auth_key = ' ' 
   
   def callbackregisterpacientes(self, *args):
     from functions import callbackregisterpacientes
@@ -210,9 +203,9 @@ class RegisterPacients(Screen):
 
 
 class HourScreen(Screen):
-  firebase_url = "https://projeto-lsi-default-rtdb.firebaseio.com/Users/Duty.json"
-  firebase_url2 = "https://projeto-lsi-default-rtdb.firebaseio.com/Users/.json"
-  auth_key = 'lurNQd7HxYgsg3xJAuPWUfQzDWJQrKSdiq7dC9xw' 
+  #firebase_url = " "
+  #firebase_url2 = " "
+  #auth_key = ' ' 
   
   def callbackplantao(self, *args):
     from functions import callbackplantao
@@ -280,8 +273,8 @@ class TakeoffScreen(Screen):
 
 
 class DutyScreen(Screen):
-  firebase_url = "https://projeto-lsi-default-rtdb.firebaseio.com/Users/Duty/.json"
-  auth_key = 'lurNQd7HxYgsg3xJAuPWUfQzDWJQrKSdiq7dC9xw'     
+  #firebase_url = " "
+  #auth_key = ' '     
 
   def on_stop(self):
     from functions import on_stop4
